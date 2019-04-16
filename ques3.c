@@ -7,17 +7,17 @@ int main(void)
 {
 	float r; //Declaration of Variables
 
-    //Taking Input
+    	//Taking Input
 	printf("Enter the Radius : ");
 	scanf("%f", &r);
 
 	/* Calculating Area of Circle */
-    float area = (float) (PI*r*r);
+	float area = (float) (PI*r*r);
 
-    /* Calculating Circumference */
-    float circumference = (float) 2*PI*r;
+    	/* Calculating Circumference */
+    	float circumference = (float) 2*PI*r;
 
-    //Printing SI & CI
+    	//Printing SI & CI
 	printf("AREA : %.3f\nCIRCUMFERENCE = %.3f \n", area, circumference);
 
 	return 0;
