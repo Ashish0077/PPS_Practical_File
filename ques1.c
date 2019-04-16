@@ -21,7 +21,7 @@ int main(void)
 	//Assuming Marks are out of 100 per subject
 	float percentage = (float) ((sum / 500) * 100);
 
-    //Printing the Total Sum and Percentage
+	//Printing the Total Sum and Percentage
 	printf("Sum = %.2f\nPercentage = %.2f \n", sum, percentage);
 
 	return 0;
