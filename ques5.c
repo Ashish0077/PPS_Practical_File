@@ -7,7 +7,7 @@ int main(void)
 {
 	int a, b; //Declaration of Variables
 
-    //Taking Input
+    	//Taking Input
 	printf("Enter Values : ");
 	scanf("%d%d", &a, &b);
 
@@ -16,11 +16,11 @@ int main(void)
 	printf("Orignal Values\na : %d\nb = %d \n", a, b);
 
 	/* Swapping the Variables */
-    int temp = a;
-    a = b;
-    b = temp;
+	int temp = a;
+	a = b;
+	b = temp;
 
-    //Printing After Swapping
+    	//Printing After Swapping
 	printf("\nValues Swapped\na : %d\nb = %d \n", a, b);
 
 	return 0;
