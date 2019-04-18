@@ -8,8 +8,8 @@
 int main(void)
 {
 	float p, r, t; //Declaration of Variables
-
-    //Taking Input
+	
+	//Taking Input
 	printf("Enter the value of Principle : ");
 	scanf("%f", &p);
 
