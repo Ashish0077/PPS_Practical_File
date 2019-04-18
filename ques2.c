@@ -9,7 +9,7 @@ int main(void)
 {
 	float p, r, t; //Declaration of Variables
 
-    	//Taking Input
+    //Taking Input
 	printf("Enter the value of Principle : ");
 	scanf("%f", &p);
 
@@ -22,10 +22,10 @@ int main(void)
 	/* Calculating simple interest */
   	float SI = (p * t * r) / 100;
 	
-    	/* Calculating Compound interest */
+	/* Calculating Compound interest */
   	float CI = p * (pow((1 + r / 100), t));
 	
-    	//Printing SI & CI
+	//Printing SI & CI
 	printf("\nSimple Interest = %.3f\nCompound Interest = %.2f \n", SI, CI);
 
 	return 0;
