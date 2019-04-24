@@ -9,12 +9,12 @@ int main(void)
 
     int sum = 0;
     int size; //Size of array
-
+    
     //Taking Input for size
     printf("Enter the size of array : ");
     scanf("%d", &size);
-
-	int arr[size]; //Array declared
+    
+    int arr[size]; //Array declared
 
 	for (int i = 0; i <size; i++)
 	{
@@ -26,7 +26,7 @@ int main(void)
 
 		system("clear"); //clearing the screen
 	}
-
+    
     //printing sum
     printf("SUM : %d\n", sum);
 

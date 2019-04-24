@@ -29,18 +29,17 @@ int armstrong(int n)
 {
     //Declaration of Variables
     int digits = 0, arm = 0, r;
-
+    
     //Making Two copies of the Number
     int n1 = n, n2 = n;
-
+    
     //Calculating the No. Of Digits
     while(n > 0)
     {
         n = n / 10;
         digits++;
     }
-
-
+    
     //Checking if the Number is Armstrong or not
     while(n2 > 0)
     {
@@ -48,7 +47,7 @@ int armstrong(int n)
         n2 = n2 / 10;
         arm += pow(r,digits);
     }
-
+    
     //Returning number or False
     if(arm == n1)
         return n1; //Number

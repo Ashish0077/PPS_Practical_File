@@ -7,18 +7,18 @@ int main(void)
 {
     //Declaration of Variables
 	int n, sum = 0;
-
-	//Taking Input
+    
+    //Taking Input
 	printf("Enter N : ");
 	scanf("%d", &n);
-
+    
     //Performing Sum of all Numbers till n
     for(int i = 0; i <= n; i++)
     {
         sum += i;
     }
-
-    //Printing Result
+    
+    //Printing SUM
 	printf("SUM : %d", sum);
 
 	return 0;

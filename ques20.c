@@ -13,15 +13,15 @@ int main(void)
     int n, a; //Declaration of Variables
 
     system("clear"); //Clears the Screen
-
+    
     //Printing the Menu
     printf("1. Binary to Decimal Conversion\n");
     printf("2. Decimal to Bianry Conversion\n");
     printf("Choose(1-2) :\n");
-
+    
     //Taking Input
     scanf("%d", &a);
-
+    
     //procedure for option 1
     if(a == 1)
     {
@@ -30,6 +30,7 @@ int main(void)
         scanf("%d", &n);
         printf("\nDecimal Number : %d\n", binToDec(n));
     }
+    
     //procedure for option 1
     else if(a == 2)
     {
@@ -38,21 +39,22 @@ int main(void)
         scanf("%d", &n);
         decToBin(n);
     }
+    
     //Invalid
     else
     {
         printf("Invalid option\n");
         exit(1);
     }
-    return 0;
 
+    return 0;
 }
 
 void decToBin(int n)
 {
     // array to store binary number
     int binaryNum[32];
-
+    
     // counter for binary array
     int i = 0;
 
@@ -63,7 +65,7 @@ void decToBin(int n)
         n = n / 2;
         i++;
     }
-
+    
     // printing binary array in reverse order
     printf("Binary Number : ");
     for (int j = i - 1; j >= 0; j--)
@@ -76,7 +78,7 @@ void decToBin(int n)
 int binToDec(int n)
 {
     int r, dec = 0, counter = 0; //Declaration of Variables
-
+    
     //Calculating Decimal Number
     while (n > 0)
     {
@@ -85,7 +87,7 @@ int binToDec(int n)
         dec += (r * pow(2,counter));
         counter++;
     }
-
+    
     return dec; //Returning Decimal Number
 
 }

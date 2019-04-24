@@ -16,7 +16,7 @@ int main()
         printf("404 File Not Found.\n");
         exit(1);
     }
-
+    
     //Calculating the Size of file 1
     int size1 = 0;
     while(!feof(file1))
@@ -24,7 +24,7 @@ int main()
         size1++;
         fgetc(file1);
     }
-
+    
     //Calculating the Size of file 2
     int size2 = 0;
     while(!feof(file2))

@@ -8,11 +8,11 @@ int main(void)
 {
     //Declaration of Variables
 	int n, esum = 0, osum = 0;
-
-	//Taking Input
+    
+    //Taking Input
 	printf("Enter N : ");
 	scanf("%d", &n);
-
+    
     //Performing Sum of even and odd numbers from 1 to N numbers
     for(int i = 0; i <= n; i++)
     {
@@ -21,7 +21,7 @@ int main(void)
         else
             osum += i;
     }
-
+    
     //Printing Result
 	printf("Sum of All Even Numbers : %d \nSum of All Odd Numbers : %d \n", esum, osum);
 

@@ -7,11 +7,11 @@ int main(void)
 {
     //Declaration of Variables
 	int n, flag = 1;
-
-	//Taking Input
+    
+    //Taking Input
 	printf("Enter N : ");
 	scanf("%d", &n);
-
+    
     //Checking if the Number is Prime or not
     for(int i = 2; i < n/2; i++)
     {
@@ -21,12 +21,12 @@ int main(void)
             break;
         }
     }
-
+    
     //printing results
     if(flag == 1)
         printf("Number is Prime\n");
     else
-        printf("Number is not Prime\n")
+        printf("Number is not Prime\n");
 
 	return 0;
 }

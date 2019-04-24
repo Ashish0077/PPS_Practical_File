@@ -7,11 +7,11 @@ int main(void)
 {
     //Declaration of Variables
 	int n, sum = 0, r;
-
-	//Taking Input
+    
+    //Taking Input
 	printf("Enter N : ");
 	scanf("%d", &n);
-
+    
     //Calculating the sum of
     while(n > 0)
     {
@@ -19,7 +19,7 @@ int main(void)
         n = n / 10;
         sum += r;
     }
-
+    
     //printing results
     printf("SUM : %d\n", sum);
 

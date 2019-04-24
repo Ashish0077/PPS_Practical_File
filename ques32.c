@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
         printf(":: Command Line Argument Missing ::\n Usage : ./ques32 filename.txt\n");
         exit(404);
     }
-    FILE *file;//Declaration of file Pointer
+    FILE *file; //Declaration of file Pointer
     file = fopen(argv[1], "r");
 
     int counter = 0;

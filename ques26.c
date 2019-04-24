@@ -30,7 +30,7 @@ int main(void)
     else
     {
         int mat1[r[0]][c[0]], mat2[r[1]][c[1]];  //Declaration of Matrices
-
+        
         //Taking Input for Values of matrix
 
         for(int i = 0; i < 2; i++)  //Keeping Track For Which matrix we are inputing value

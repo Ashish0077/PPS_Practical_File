@@ -11,7 +11,7 @@ int main(void)
 
     int n; //element to be searched
     int size; //Size of array
-
+    
     //Taking Input for size
     printf("Enter the size of array : ");
     scanf("%d", &size);
@@ -20,6 +20,7 @@ int main(void)
 
 	for (int i = 0; i <size; i++)
 	{
+        
         //Taking Input array elements
 		printf("Enter Element %d : ", i + 1);
 		scanf("%d", &arr[i]);
@@ -34,8 +35,8 @@ int main(void)
 	}
 
 	bubbleSort(arr, size); //Calling Bubble Sort Function
-
-	//Printing sorted Array
+    
+    //Printing sorted Array
 	printf("\n\nAfter Performing Bubble Sort: ");
 	printf("\nSorted Array : ");
 	for (int i = 0; i <size; i++)

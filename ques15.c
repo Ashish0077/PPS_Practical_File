@@ -9,11 +9,11 @@ int main(void)
 {
     //Declaration of Variables
 	int n;
-
-	//Taking Input
+    
+    //Taking Input
 	printf("Enter N : ");
 	scanf("%d", &n);
-
+    
     //Printing Fibbonacci series
     for(int i = 0; i < n; i++)
         printf("%d ", fib(i));

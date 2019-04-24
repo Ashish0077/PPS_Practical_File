@@ -17,7 +17,7 @@ int main(void)
 
     printf("Enter String A : ");
     fgets(strA, 50, stdin);
-
+    
     //Printing the Menu
     printf("1. Find the Length Of String\n");
     printf("2. Copy the String to Another String\n");
@@ -47,6 +47,7 @@ int main(void)
 
     else if(n == 3)
     {
+        
         // flushes the standard input
         // (clears the input buffer)
         while ((getchar()) != '\n');

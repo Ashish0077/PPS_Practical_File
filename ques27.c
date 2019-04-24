@@ -6,7 +6,7 @@
 int main(void)
 {
     int r, c, sum = 0; //Declaration of Variables
-
+    
     //Taking Input for Rows and Columns
     printf("Enter The No. Of Rows And columns (R * C):\n");
 
@@ -19,7 +19,7 @@ int main(void)
     system("clear");
 
     int mat1[r][c];  //Declaration of Matrix
-
+    
     //Taking Input for Values of matrix
     for(int i = 0; i < r; i++)  //keeping Track of Rows
     {
@@ -30,7 +30,7 @@ int main(void)
         }
         printf("\n");
     }
-
+    
     //Calculating the Sum of Diagonal
     for(int i = 0; i < r; i++)
     {

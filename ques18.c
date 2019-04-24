@@ -7,11 +7,11 @@ int main(void)
 {
     //Declaration of Variables
 	int n, rev = 0, r;
-
-	//Taking Input
+    
+    //Taking Input
 	printf("Enter Number : ");
 	scanf("%d", &n);
-
+    
     //Reversing the Number
     while(n > 0)
     {
@@ -19,7 +19,7 @@ int main(void)
         n = n / 10;
         rev = (10 * rev) + r;
     }
-
+    
     //printing results
     printf("Reverse : %d\n", rev);
 

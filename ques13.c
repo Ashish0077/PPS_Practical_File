@@ -9,14 +9,14 @@ int main(void)
 {
     //Declaration of Variables
 	int n, res;
-
-	//Taking Input
+    
+    //Taking Input
 	printf("Enter N : ");
 	scanf("%d", &n);
-
+    
     //calling factorial function
     res = fact(n);
-
+    
     //Printing Result
 	printf("Factorial of %d is : %d \n", n, res);
 
@@ -25,7 +25,7 @@ int main(void)
 
 int fact(int n)
 {
-    if(n <= 1)
+    if(n <= 1) //This statement Terminates the Recursive Calls
         return 1;
 
     return n * fact(n - 1);

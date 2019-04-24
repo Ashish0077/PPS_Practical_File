@@ -11,8 +11,8 @@ int main(void)
 
     int n; //element to be searched
     int size; //Size of array
-
-    //Taking Input for size
+	
+	//Taking Input for size
     printf("Enter the size of array : ");
     scanf("%d", &size);
 
@@ -20,13 +20,14 @@ int main(void)
 
 	for (int i = 0; i <size; i++)
 	{
-        //Taking Input array elements
+		
+		//Taking Input array elements
 		printf("Enter Element %d : ", i + 1);
 		scanf("%d", &arr[i]);
 
 		system("clear"); //clearing the screen
 	}
-
+	
 	//taking Input for the Element to be Searched
 	printf("Enter the Element to be Searched : ");
 	scanf("%d", &n);
@@ -49,7 +50,7 @@ int linearSearch(int n, int arr[], int size)
 {
     for(int i = 0; i < size; i++)
     {
-        //Comparing each element of array with the Number to be Searched
+		//Comparing each element of array with the Number to be Searched
         if (n == arr[i])
         {
             return i+1;

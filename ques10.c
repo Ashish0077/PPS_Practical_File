@@ -13,7 +13,7 @@ int main(void)
 {
 	float marks[5]; //array for accepting marks
 	float sum = 0;
-
+	
 	//Taking Input
 	for (int i = 0; i < 5; i++)
 	{
@@ -22,11 +22,11 @@ int main(void)
 		sum += marks[i]; //Calculating sum
 		system("clear"); //clearing the screen
 	}
-
-    //Calculating Percentage
+	
+	//Calculating Percentage
 	//Assuming Marks are out of 100 per subject
 	float percentage = (float) ((sum / 500) * 100);
-
+	
 	//Printing Grades according to the percentage
 	if(percentage >= 90)
 	    printf("Grade : A\n");
